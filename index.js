@@ -1,4 +1,4 @@
-//1
+//21
 /* let x = "John"
 let y = "Doe"
 let result = x + " <> " + y
@@ -20,10 +20,13 @@ console.log(data) */
 console.log(data) */
 
 //24
-/* let cities = ["Munich", "Frankfurt", "Freiberg", "Berlin", "Dresden", "Chemnitz", "Hamburg", "dusseldorf", "Dortmund", "Zwickau"] */
+ //let cities = ["Munich", "Frankfurt", "Freiberg", "Berlin", "Dresden", "Chemnitz", "Hamburg", "dusseldorf", "Dortmund", "Zwickau"] 
 
 //25
-/* console.log(cities) */
+/* for(i=0; i<cities.length; i++) {
+    console.log(cities[i])
+} */
+
 
 //26
 /* const array = []
@@ -119,7 +122,7 @@ function deleteRow() {
 /* function addTest() {
     let newClass = document.querySelectorAll('tr')
     for(let i=0; i<newClass.length; i++) {
-
+newClass[i].classList.add("test")
     }
 
 } */
@@ -152,12 +155,23 @@ uoList.appendChild(newItem)
 emptyList() */
 
 //41
-function hideImage() {
+
+//42
+/* function hideImage() {
     let imagesToHide = document.querySelectorAll('img')
     for(i=0; i<imagesToHide.length; i++) {
         imagesToHide[i].style.visibility = "hidden" 
     }
-}
+} */
+
+//43
+/* function hideTable() {
+    let tableToHide = document.querySelector('table')
+    tableToHide.classList.toggle('disappear')
+} */
+
+//44
+
 
 
 /* function executeOnLoad() {

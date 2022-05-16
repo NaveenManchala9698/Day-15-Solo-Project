@@ -33,6 +33,14 @@ td {
     border: 2px solid green;
 }
 
+td:hover {
+    border: 4px solid pink;
+}
+
+td:active {
+    background-color: burlywood;
+}
+
 tr {
     border: 3px dotted red;
 }
@@ -42,5 +50,9 @@ p {
 }
 
 #contact {
+    visibility: hidden;
+}
+
+.disappear {
     visibility: hidden;
 }
